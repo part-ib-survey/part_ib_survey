@@ -24,4 +24,6 @@ Describing how likely you are to choose a subject (Y) given you chose another (X
   <img width="780" src="https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/heatmap_AB.png">
 </p>
 
+Someone's choices for part IB can be represented by a vector of probabilities in 19D space. Using PCA, the dimensionality can be reduced to 2D and plotted. Not sure what the graph shows but you can definitely see some clustering of the physics and bio subjects.
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~juandiegolast/1.embed"></iframe>
