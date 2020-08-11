@@ -5,6 +5,15 @@ from collections import OrderedDict
 import seaborn as sns
 from sklearn.decomposition import PCA
 import plotly.graph_objects as go
+import chart_studio
+
+# save to account
+username = None
+api_key = None
+# uncomment this line to save chart
+# chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+
+import chart_studio.plotly as py
 
 def dataframe_to_numpy(data):
     N, Col = data.shape
@@ -88,6 +97,7 @@ def plot_stacked_bar(data, series_labels, category_labels=None,
                          va="center")
 
     if save:
+        plt.gcf().subplots_adjust(bottom=0.2)
         plt.savefig(save + 'StackedPlot.png')
     plt.show()
 
@@ -177,7 +187,7 @@ def plot_pca_B(file_name='pca.html'):
                                   line=dict(width=2,
                                             color='DarkSlateGrey')),
                       selector=dict(mode='markers'))
-    fig.write_html(save + file_name)
+    py.plot(fig, filename='pca', auto_open=False)
     fig.show()
 
 
