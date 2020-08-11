@@ -145,7 +145,10 @@ def heatmap_from_probs(probs_X, probs_Y, categories_X, categories_Y, diag=False,
     ax.set_ylabel("Y")
     ax.set_xlabel("X")
     ax.set_title('P(Y|X)')
+
     if save:
+        plt.gcf().subplots_adjust(bottom=0.3)
+        plt.gcf().subplots_adjust(left=0.15)
         plt.savefig(save + file_name)
     plt.show()
 
