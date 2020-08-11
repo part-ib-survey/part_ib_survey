@@ -4,7 +4,9 @@ All the answers to the survey can be found [here](https://github.com/part-ib-sur
 
 Describing the popularity of every subject:
 
-![](https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/StackedPlot.png)
+<p align="center">
+  <img width="780"src="https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/StackedPlot.png">
+</p>
 
 Interesting to see that physics isn't the subject with the most interest but it is the one with the most certain people.
 
