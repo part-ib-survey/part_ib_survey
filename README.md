@@ -24,3 +24,4 @@ Describing how likely you are to choose a subject (Y) given you chose another (X
   <img width="780"src="https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/heatmap_AB.png">
 </p>
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~juandiegolast/1.embed"></iframe>
