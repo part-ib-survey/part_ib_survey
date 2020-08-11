@@ -20,7 +20,7 @@ Describing how likely you are to choose a subject (Y) given you chose another (X
   <img width="780"src="https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/heatmap_B.png">
 </p>
 
-<p align="center">
+<p align="right">
   <img width="780"src="https://github.com/part-ib-survey/part_ib_survey/blob/master/Figures/heatmap_AB.png">
 </p>
 
