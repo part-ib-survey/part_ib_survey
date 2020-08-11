@@ -1,6 +1,6 @@
 # Results of Survey of Part IB Choices for 2020 cohort
 
-All the answers to the survey can be found [here](https://github.com/part-ib-survey/part_ib_survey/blob/master/AnonData.xlsx). Below are some figures summarizing the responses.
+All the answers to the survey can be found [here](https://github.com/part-ib-survey/part_ib_survey/blob/master/AnonData.xlsx). The survey got 64 responses, a sample of about 9% of the cohort. Below are some figures summarizing the responses.
 
 Describing the popularity of every subject:
 
